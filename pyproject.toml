@@ -216,7 +216,9 @@ testsuite = [
 ads = "ads.cli:cli"
 
 [tool.flit.module]
-name = "ads" # name for local build and import, see https://flit.pypa.io/en/latest/pyproject_toml.html#module-section
+# name for local build and import, see https://flit.pypa.io/en/latest/pyproject_toml.html#module-section
+name = "ads"
+
 
 [tool.flit.sdist]
 # By default `ads` folder and `LICENSE.txt` file included in sdist. Folders `docs` and `tests` are excluded, as weel as other project files
