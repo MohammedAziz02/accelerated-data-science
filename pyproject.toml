@@ -20,7 +20,8 @@ build-backend = "flit_core.buildapi"
 # PEP 518 – Specifying Minimum Build System Requirements for Python Projects https://peps.python.org/pep-0518/
 
 # Required
-name = "oracle_ads" # the install (PyPI) name; name for local build in [tool.flit.module] section below
+# the install (PyPI) name; name for local build in [tool.flit.module] section below
+name = "oracle_ads"
 version = "2.11.10"
 
 # Optional
